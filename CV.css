@@ -1,0 +1,25 @@
+/* background color */
+body{
+background: linear-gradient(90deg, rgba(230, 193, 230, 1) 0%, rgba(194, 126, 194, 1) 37%, rgba(141, 158, 240, 1) 100%);
+font-family: pacifico,cursive;
+}
+/* remove underline on links */
+a { 
+    text-decoration:none;
+}
+/* smaller spacing */
+p{
+    line-height: 1;
+}
+/* center and shadow name */
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px white;
+    font-size: 35px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
