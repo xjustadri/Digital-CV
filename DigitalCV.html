@@ -5,27 +5,54 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<title>Springboard</title>
     </head>
 <body>
-    <!-- profile picture -->
-    <img src="C:\Users\moniq\Downloads\me.jpg" width="200" height="300">
- 
-<h1>Adriana James</h1>
-<p>Email: adrianamjames99@gmail.com</p>
-<p>803-220-5774</p>
+    <header>
+        <!--introduction-->
+        <section>
+            <div class="image-container">
+    <img 
+        src="C:\Users\moniq\Downloads\me.jpg" 
+        width="200"  height="300">
+        </div>
+
+        <div class="name-container">
+            <h1>Adriana James</h1>
+        </div>
+        <div class="information-container">
+            <p>Email: adrianamjames99@gmail.com</p>
+            <p>803-220-5774</p>
+        </div>
+        </section>
+</header>
+<main>
+    <section>
+        <!--Summary-->
 <h2>Summary</h2>
 <p>Motivated and detail‑oriented software engineer transitioning from a successful career as a licensed optician. Known for precision, customer‑focused problem solving, and the ability to learn complex systems quickly. Currently completing an intensive Software Engineering Career Track, building full‑stack applications with modern tools and writing clean, maintainable code. Brings a unique blend of technical discipline, creativity, and real‑world communication skills.</p>
+    </section>
+    <section>
+    <!--Education-->
 <h2>Education</h2>
     <ul>
         <li>Lower Richland Highschool 2014-2015</li>
         <li>South Carolina Virtual Charter School 2015-2018</li>
         <li>Penn Foster 2022-2023</li>
     </ul>
+    </section>
+
+    <section>
+   <!--Ceritifications-->
 <h2>Certifications</h2>
 <ul>
     <li>ABO Certified</li>
     <li>SC State Licensed Optician</li>
 </ul>
+    </section>
+
+   <section>
+    <!--tech skills-->
 <h2>Technical Skills</h2>
 <ul>
     <li>Tools & Frameworks
@@ -37,8 +64,12 @@
         <li>Teamwork</li>
     </li>
 </ul>
+   </section>
+<!--tech skills table-->
+   <section class="tech">
+    <h2>Technical Skills Continue</h2>
+    <div class="container">
 <table>
-    <caption>Tech Skills Continue</caption>
     <thead>
         <tr>
             <th>Languages</th>
@@ -64,27 +95,58 @@
        </tr>
     </tbody>
 </table>
+    </div>
+   </section>
+</main>
+
+<footer>
+<section class="contact">
 <form>
-<label>
-    Enter Email
-    <input type="email" placeholder="Email" name="email"required>
+    <!--email textbox-->
+<div class="text-input-container">
+<label for="Email">Enter Email</label>
+    <input
+     type="email"
+     id="email"
+      placeholder="Email"
+       name="email"
+       required
+       class="input"
+       >
 </label>
-<br>
-<label>
-    Give Feedback
-    <input type="text" name="feedback" placeholder="Give Feedback" minlength="1">
-</label>
-<br>
-Did you enjoy my profile?
-<select name="Choice">
+</div>
+
+<!--Feedback textbox-->
+<div class="text-input-container">
+<label for="Feedback">Give Feedback</label>
+    <input
+     type="text"
+      name="feedback"
+       placeholder="Give Feedback"
+        minlength="1"
+        class="input"
+        >
+</div>
+
+<!--drop choice-->
+<div class="select-container">
+<label for="Choice">Did you enjoy my profile?</label>
+<select name="Choice" id="Choice">
     <option value="">Select An Option</option>
     <option value="Yes">Yes</option>
     <option value="Yes">Yeah</option>
 </select>
-<br>
-<input type="submit">
-</form>
+</div>
 
+<!--submit button-->
+<div class="button-container">
+<button type="submit">Submit</button>
+</div>
+</form>
+</section>
+
+<section>
+    <!--Social links-->
 <h3>Social Links</h3>
     <hr>
     <p>
@@ -93,5 +155,7 @@ Did you enjoy my profile?
     <p>
         <a href="https://github.com/xjustadri">GitHub</a>
     </p>
+</section>
+</footer>
 </body>
 </html>

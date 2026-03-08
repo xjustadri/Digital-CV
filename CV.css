@@ -1,7 +1,11 @@
 /* background color */
-body{
-background: linear-gradient(90deg, rgba(230, 193, 230, 1) 0%, rgba(194, 126, 194, 1) 37%, rgba(141, 158, 240, 1) 100%);
-font-family: pacifico,cursive;
+body{  
+    background: linear-gradient(90deg, rgba(230, 193, 230, 1) 0%, rgba(194, 126, 194, 1) 37%, rgba(141, 158, 240, 1) 100%);
+    font-family: pacifico,cursive; /*font type, backup font type*/ 
+    margin:2rem;
+    padding:2rem;
+    border: 2px dotted black;
+
 }
 /* remove underline on links */
 a { 
@@ -18,8 +22,62 @@ h1 {
     font-size: 35px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 25px
 }
 h3 {
     font-size: 20px;
+}
+/* image style */
+img{
+outline: 2px solid black
+}
+
+header section .image-container img
+{
+    display:block;
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50%, 40%;
+
+}
+/* Contact section style */
+.contact .text-input-container
+{
+Display:flex;
+align-items:flex-start;
+flex-direction: column;
+}
+.contact .select-container
+{
+    Display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.button-container :hover
+{
+background-color: aqua;
+}
+.contact .button-container
+{
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 10px;
+}
+.information-container p
+{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap:wrap-reverse;
+    
+}
+/* tech section style */
+.tech .container
+{
+border: 2px dotted black;
+box-sizing: border-box;
+width:250px;
+padding:2em;
+
 }
